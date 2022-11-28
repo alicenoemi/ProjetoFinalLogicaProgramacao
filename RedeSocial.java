@@ -10,7 +10,7 @@ public class RedeSocial {
 		System.out.println("	/_/\\_____/    #Dev-Makers2");
 		System.out.println("	   /\\   /\\");
 		System.out.println("	  /  \\ /  \\");
-		System.out.println("			Esse é o makerzinho, o nosso mascote! o/");
+		System.out.println("			Esse Ã© o makerzinho, o nosso mascote! o/");
 		System.out.println("");
 		menuInicial();
 	}
@@ -18,7 +18,7 @@ public class RedeSocial {
 	static void menuInicial(){
 		try {
 			System.out.println("==============    MENU INICIAL   ================");
-			System.out.println("Qual operação você deseja realizar:\n"
+			System.out.println("Qual operaÃ§Ã£o vocÃª deseja realizar:\n"
 					+ "C - Cadastrar perfil \n"
 					+ "E - Entrar na sua conta \n"
 					+ "L - Lista de usuarios \n"
@@ -38,16 +38,16 @@ public class RedeSocial {
 	            	menuInicial();
 	            	break;
 	            case "S": 
-	            	System.out.println("Opa, já vai?? ");
+	            	System.out.println("Opa, jÃ¡ vai?? ");
 	            	System.out.println("	^..^      /");
-	        		System.out.println("	/_/\\_____/    #tchAUtchAU");
-	        		System.out.println("	   /\\   /\\");
-	        		System.out.println("	  /  \\ /  \\");
-	        		System.out.println("			  Esperamos de te ver em breve! o/");          	
+	        	System.out.println("	/_/\\_____/    #tchAUtchAU");
+	        	System.out.println("	   /\\   /\\");
+	        	System.out.println("	  /  \\ /  \\");
+	        	System.out.println("			  Esperamos de te ver em breve! o/");          	
 	            	System.exit(0);
 	            	break;           	
 	            default:
-	            	System.out.println("Operação inválida. Tente novamente.");
+	            	System.out.println("OperaÃ§Ã£o invÃ¡lida. Tente novamente.");
 	            	menuInicial(); 
 	            	break;
 			}
